@@ -13,6 +13,7 @@ idea: find the biggest cluster of activated pixels and define that as brain mask
 you will see that the brain mask follows a decreasing slope till it
 "breaks" and the brain mask combines with 'outer clusters' 
 check the iterations with 'ms_gui_checkBrainMasks'
+
 ** flag **
 you can set some parameters using the 'flag' variable (see "set some
 'standard' options" within the main file). Of most interest is probably..
@@ -23,7 +24,7 @@ you can set some parameters using the 'flag' variable (see "set some
 The best parameter set is probably more like an art.. but try to make the 'plateau' as wide as possible (see docs)
 
 !! Watch Out !! the given docs are not uptodate!
-Use ma_app_checkBrainMasks.mlapp for checking the correct iterations
+Use ms_app_checkBrainMasks.mlapp for checking the correct iterations
 
 This code was inspired by the excellent paper "Robust Automatic Rodent Brain Extraction Using 3-D Pulse-Coupled Neural Networks (PCNN)" by
 Nigel Chou, Jiarong Wu, Jordan Bai Bingren, Anqi Qiu, and Kai-Hsiang Chuang
