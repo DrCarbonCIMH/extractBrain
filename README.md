@@ -4,15 +4,18 @@ Make sure you have SPM12 installed.
 
 # Usage
 [ Pout, finalBrainSize ] = ms_do_brainExtraction( P, BrSize, flag )
+- P: MRI file
+- BrSize: range in which the brain size is to be expected (e.g. [350,650]; multiply by 1000 if you "extend" voxelsize)
+- flag: can have fields 'p', 'r', and 'preprocStyle' (see below for details
 
 # Explanation
 PCNN is an iterative procedure; it activates neurons/pixels based on
 certain image properties (starting with the highest value and then influencing neighbours). 
-the algorithm performs the PCNN stepwise and collects actived pixels; these pixels serve as mask;
+the algorithm performs the PCNN stepwise and collects activated pixels; these pixels serve as mask;
 idea: find the biggest cluster of activated pixels and define that as brain mask
 you will see that the brain mask follows a decreasing slope till it
 "breaks" and the brain mask combines with 'outer clusters' 
-check the iterations with 'ms_gui_checkBrainMasks'
+check the iterations with 'ms_app_checkBrainMasks'
 
 ** flag **
 you can set some parameters using the 'flag' variable (see "set some
