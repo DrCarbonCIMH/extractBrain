@@ -23,6 +23,8 @@ you can set some parameters using the 'flag' variable (see "set some
 
 The best parameter set is probably more like an art.. but try to make the 'plateau' as wide as possible (see docs)
 
+[!alt text](https://github.com/DrCarbonCIMH/extractBrain/blob/main/doc/brainExtraction_result.png)
+
 !! Watch Out !! the given docs are not uptodate!
 Use ms_app_checkBrainMasks.mlapp for checking the correct iterations
 
