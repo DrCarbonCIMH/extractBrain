@@ -27,8 +27,9 @@ you can set some parameters using the 'flag' variable (see "set some
 The best parameter set is probably more like an art.. but try to make the 'plateau' as wide as possible (see docs)
 
 ![alt text](https://github.com/DrCarbonCIMH/extractBrain/blob/main/doc/brainExtraction_result.png)
-upper left: anatomical input image; upper right: preprocessed image (using 'preprocStyle' full; lower left: 'extracted' brain; lower right: brain mask
+upper left: anatomical input image; upper right: preprocessed image (using 'preprocStyle' full); lower left: 'extracted' brain; lower right: estimated brain mask
 
+In case you are not happy with the result you can use 'ms_app_checkBrainMasks' to define a new brain mask by choosing another iteration step. 'OptG' is the step which the algorithm chose initially. Load the created 'BrainMask*.mat' file (use SPM's recursive search function to load several .mat files at once). 
 ![alt text](https://github.com/DrCarbonCIMH/extractBrain/blob/main/doc/checkBrainMasks_app.png)
 
 !! Watch Out !! the given docs are not uptodate!
