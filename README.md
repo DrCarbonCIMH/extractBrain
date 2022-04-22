@@ -27,6 +27,7 @@ you can set some parameters using the 'flag' variable (see "set some
 The best parameter set is probably more like an art.. but try to make the 'plateau' as wide as possible (see docs)
 
 ![alt text](https://github.com/DrCarbonCIMH/extractBrain/blob/main/doc/brainExtraction_result.png)
+upper left: anatomical input image; upper right: preprocessed image; lower left: 'extracted' brain; lower right: brain mask
 ![alt text](https://github.com/DrCarbonCIMH/extractBrain/blob/main/doc/checkBrainMasks_app.png)
 
 !! Watch Out !! the given docs are not uptodate!
