@@ -33,7 +33,7 @@ In case you are not happy with the result you can use 'ms_app_checkBrainMasks' t
 
 ![alt text](https://github.com/DrCarbonCIMH/extractBrain/blob/main/doc/checkBrainMasks_app.png)
 
-!! Watch Out !! the given docs are not uptodate!
+!! Watch Out !! the given docs are not up-to-date!
 Use ms_app_checkBrainMasks.mlapp for checking the correct iterations
 
 This code was inspired by the excellent paper "Robust Automatic Rodent Brain Extraction Using 3-D Pulse-Coupled Neural Networks (PCNN)" by
